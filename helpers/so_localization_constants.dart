@@ -1,3 +1,8 @@
+/// Thanks @Hareeri for the translations
+/// https://www.reddit.com/r/Somalia/comments/111mqmw/days_of_the_week/
+
+
+
 import 'package:intl/date_symbols.dart';
 
 class SomaliLocalizationConstants {
@@ -9,127 +14,135 @@ class SomaliLocalizationConstants {
    static DateSymbols symbols = DateSymbols(
     NAME: 'so_SO',
     ERAS: const ['BC', 'AD'],
-    ERANAMES: const ['Before Christ', 'Anno Domini'],
+    ERANAMES: const ['Masiixa ka hor', 'Ciise dabadii'],
     NARROWMONTHS: const [
-      'J',
-      'F',
-      'M',
+      // Created by @Tylerchristensen100 [PROBABLY INCORRECT]
       'A',
+      'X',
+      'J',
       'M',
-      'J',
-      'J',
-      'A',
       'S',
-      'O',
-      'N',
-      'D'
+      'D',
+      'D',
+      'S',
+      'D',
+      'B',
+      'T',
+      'T'  
     ],
     STANDALONENARROWMONTHS: const [
-      'J',
-      'F',
-      'M',
+      // Created by @Tylerchristensen100 [PROBABLY INCORRECT]
       'A',
+      'X',
+      'J',
       'M',
-      'J',
-      'J',
-      'A',
       'S',
-      'O',
-      'N',
-      'D'
+      'D',
+      'D',
+      'S',
+      'D',
+      'B',
+      'T',
+      'T' 
     ],
     MONTHS: const [
-      'January',
-      'February',
-      'March',
-      'April',
-      'May',
-      'June',
-      'July',
-      'August',
-      'September',
-      'October',
-      'November',
-      'December'
+      'Aragto',
+      'Xigto',
+      'Joogto',
+      'Muuqato',
+      'Socoto',
+      'Dhaxo',
+      'Dheero',
+      'Samo',
+      'Dhammo',
+      'Buuxo',
+      'Tiro',
+      'Taammo'
     ],
     STANDALONEMONTHS: const [
-      'January',
-      'February',
-      'March',
-      'April',
-      'May',
-      'June',
-      'July',
-      'August',
-      'September',
-      'October',
-      'November',
-      'December'
+      'Aragto',
+      'Xigto',
+      'Joogto',
+      'Muuqato',
+      'Socoto',
+      'Dhaxo',
+      'Dheero',
+      'Samo',
+      'Dhammo',
+      'Buuxo',
+      'Tiro',
+      'Taammo'
     ],
-    SHORTMONTHS: const [
-      'Jan',
-      'Feb',
-      'Mar',
-      'Apr',
-      'May',
-      'Jun',
-      'Jul',
-      'Aug',
-      'Sep',
-      'Oct',
-      'Nov',
-      'Dec'
+    SHORTMONTHS: const [ 
+    //Full month names
+    //Are there abbreviations for the months
+      'Aragto',
+      'Xigto',
+      'Joogto',
+      'Muuqato',
+      'Socoto',
+      'Dhaxo',
+      'Dheero',
+      'Samo',
+      'Dhammo',
+      'Buuxo',
+      'Tiro',
+      'Taammo'
     ],
     STANDALONESHORTMONTHS: const [
-      'Jan',
-      'Feb',
-      'Mar',
-      'Apr',
-      'May',
-      'Jun',
-      'Jul',
-      'Aug',
-      'Sep',
-      'Oct',
-      'Nov',
-      'Dec'
+    //Full month names
+    //Are there abbreviations for the months
+      'Aragto',
+      'Xigto',
+      'Joogto',
+      'Muuqato',
+      'Socoto',
+      'Dhaxo',
+      'Dheero',
+      'Samo',
+      'Dhammo',
+      'Buuxo',
+      'Tiro',
+      'Taammo'
     ],
     WEEKDAYS: const [
-      'Sunday',
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday'
+      'Koobin',
+      'Laabin',
+      'Labtako',
+      'Koodaar',
+      'Hakis',
+      'Hakis-billa ',
+      'Sooroga'
     ],
     STANDALONEWEEKDAYS: const [
-      'Sunday',
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday'
+      'Koobin',
+      'Laabin',
+      'Labtako',
+      'Koodaar',
+      'Hakis',
+      'Hakis-billa ',
+      'Sooroga'
     ],
     SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
     STANDALONESHORTWEEKDAYS: const [
-      'Sun',
-      'Mon',
-      'Tue',
-      'Wed',
-      'Thu',
-      'Fri',
-      'Sat'
+      //Full Weekday names
+      //Are there shortened weekday names?
+      'Koobin',
+      'Laabin',
+      'Labtako',
+      'Koodaar',
+      'Hakis',
+      'Hakis-billa ',
+      'Sooroga'
     ],
-    NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
-    STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+    NARROWWEEKDAYS: const ['K', 'L', 'L', 'K', 'H', 'H', 'S'],
+    STANDALONENARROWWEEKDAYS: const ['K', 'L', 'L', 'K', 'H', 'H', 'S'],
     SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
     QUARTERS: const [
-      '1st quarter',
-      '2nd quarter',
-      '3rd quarter',
-      '4th quarter'
+      'Gu',
+      'Dayr',
+      'Xagaa',
+      'Jilaal'
     ],
     AMPMS: const ['AM', 'PM'],
     DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'M/d/yy'],
