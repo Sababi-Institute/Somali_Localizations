@@ -5,43 +5,43 @@ class SoWidgetLocalizations extends DefaultWidgetsLocalizations {
   const SoWidgetLocalizations();
 
   @override
-  String get reorderItemUp => 'Move up';
+  String get reorderItemUp => 'Kor u dhaqaaq';
 
   @override
-  String get reorderItemDown => 'Move down';
+  String get reorderItemDown => 'Hoos u dhaqaaq';
 
   @override
-  String get reorderItemLeft => 'Move left';
+  String get reorderItemLeft => 'Bidix u dhaqaaq';
 
   @override
-  String get reorderItemRight => 'Move right';
+  String get reorderItemRight => 'Midig u dhaqaaq';
 
   @override
-  String get reorderItemToEnd => 'Move to the end';
+  String get reorderItemToEnd => 'U gudub dhamaadka';
 
   @override
-  String get reorderItemToStart => 'Move to the start';
+  String get reorderItemToStart => 'U dhaqaaq bilawga';
 
   @override
-  String get copyButtonLabel => 'Copy';
+  String get copyButtonLabel => 'Nuqul';
 
   @override
-  String get cutButtonLabel => 'Cut';
+  String get cutButtonLabel => 'Jar';
 
   @override
-  String get pasteButtonLabel => 'Paste';
+  String get pasteButtonLabel => 'Ku dheji';
 
   @override
-  String get selectAllButtonLabel => 'Select all';
+  String get selectAllButtonLabel => 'Dhammaan dooro';
 
   @override
-  String get lookUpButtonLabel => 'Look Up';
+  String get lookUpButtonLabel => 'Kor u eeg';
 
   @override
-  String get searchWebButtonLabel => 'Search Web';
+  String get searchWebButtonLabel => 'Ka raadi Shabakadda';
 
   @override
-  String get shareButtonLabel => 'Share';
+  String get shareButtonLabel => 'La wadaag';
 
   @override
   TextDirection get textDirection => TextDirection.ltr;
