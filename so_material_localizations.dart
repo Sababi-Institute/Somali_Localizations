@@ -61,13 +61,13 @@ class SoMaterialLocalizations extends DefaultMaterialLocalizations {
   String get alertDialogLabel => 'Digniin';
 
   @override
-  String get backButtonTooltip => 'Ku noqo';
+  String get backButtonTooltip => 'Dib u noqo';
 
   @override
-  String get closeButtonLabel => 'Xidh';
+  String get closeButtonLabel => 'Xir';
 
   @override
-  String get closeButtonTooltip => 'Xidh';
+  String get closeButtonTooltip => 'Xir';
 
   @override
   String get continueButtonLabel => 'Sii wad';
@@ -76,25 +76,25 @@ class SoMaterialLocalizations extends DefaultMaterialLocalizations {
   String get copyButtonLabel => 'Nuqul';
 
   @override
-  String get cutButtonLabel => 'Goyn';
+  String get cutButtonLabel => 'gooyay';
 
   @override
   String get dateHelpText => 'dd/mm/yyyy';
 
   @override
-  String get dateInputLabel => 'Taariikhda gal';
+  String get dateInputLabel => 'Taariikhda Geli';
 
   @override
-  String get dateOutOfRangeLabel => 'Taariikhda ma saxna';
+  String get dateOutOfRangeLabel => 'Taariikhda xad dhaafka ah';
 
   @override
-  String get datePickerHelpText => 'Taariikhda dooro';
+  String get datePickerHelpText => 'Dooro Taariikhda';
 
   @override
-  String get dateRangeEndLabel => 'Dhamaad';
+  String get dateRangeEndLabel => 'Taariikhda dhamaadka';
 
   @override
-  String get dateRangeStartLabel => 'Bilow';
+  String get dateRangeStartLabel => 'Taariikhda Bilawga';
 
   @override
   String get deleteButtonTooltip => 'Tirtir';
@@ -109,40 +109,40 @@ class SoMaterialLocalizations extends DefaultMaterialLocalizations {
   String get expansionTileExpandedHint => 'La balaariyay';
 
   @override
-  String get expansionTileCollapsedHint => 'La yareeyay';
+  String get expansionTileCollapsedHint => 'dumay';
 
   @override
-  String get expandedIconTapHint => 'Yaree';
+  String get expandedIconTapHint => 'Balaaray';
 
   @override
   int get firstDayOfWeekIndex => 1; // Monday
 
   @override
-  String get firstPageButtonTooltip => 'Bogga kowaad';
+  String get firstPageButtonTooltip => 'Bogga Koowaad';
 
   @override
-  String get genericErrorText => 'Waxbaa qaldamay';
+  String get genericErrorText => 'Khalad';
 
   @override
-  String get moreButtonTooltip => 'Wax ka badan';
+  String get moreButtonTooltip => 'Wax badan';
 
   @override
-  String get newPasswordLabel => 'Furaha cusub';
+  String get newPasswordLabel => 'Furaha';
 
   @override
-  String get nextMonthTooltip => 'Bisha danbe';
+  String get nextMonthTooltip => 'Bisha soo socota';
 
   @override
-  String get nextPageButtonTooltip => 'Bogga danbe';
+  String get nextPageButtonTooltip => 'Bogga xiga';
 
   @override
   String get noButtonLabel => 'Maya';
 
   @override
-  String get okButtonLabel => 'Haa';
+  String get okButtonLabel => 'Waayahay';
 
   @override
-  String get openAppDrawerTooltip => 'Furan navigation menu';
+  String get openAppDrawerTooltip => 'Fur meniu navigation';
 
   @override
   pageRowsInfoTitle(
@@ -167,22 +167,22 @@ class SoMaterialLocalizations extends DefaultMaterialLocalizations {
   }
 
   @override
-  String get pasteButtonLabel => 'Daji';
+  String get pasteButtonLabel => 'Dheji';
 
   @override
-  String get popupMenuLabel => 'Furan menu';
+  String get popupMenuLabel => 'Liiska soo baxay';
 
   @override
   String get previousMonthTooltip => 'Bishii hore';
 
   @override
-  String get previousPageButtonTooltip => 'Bogga hore';
+  String get previousPageButtonTooltip => 'Boggii hore';
 
   @override
   String get refreshIndicatorSemanticLabel => 'Dib u cusboonaysii';
 
   @override
-  String get saveButtonLabel => 'Keydi';
+  String get saveButtonLabel => 'Badbaadin';
 
   @override
   ScriptCategory get scriptCategory => ScriptCategory.englishLike;
@@ -191,7 +191,7 @@ class SoMaterialLocalizations extends DefaultMaterialLocalizations {
   String get searchFieldLabel => 'Raadi';
 
   @override
-  String get selectAllButtonLabel => 'Dooro dhamaan'; // Added missing override
+  String get selectAllButtonLabel => 'Dooro Dhammaan'; 
 
   @override
   String selectedRowCountTitle(int rowCount) {
@@ -205,22 +205,22 @@ class SoMaterialLocalizations extends DefaultMaterialLocalizations {
   }
 
   @override
-  String get showMenuTooltip => 'Tus menu';
+  String get showMenuTooltip => 'Muuji Menu';
 
   @override
-  String get signedInLabel => 'La soo galay';
+  String get signedInLabel => 'Saxiixday';
 
   @override
-  String get signOutButtonTooltip => 'Ka bax';
+  String get signOutButtonTooltip => 'Saxiix';
 
   @override
-  String get timePickerHourLabel => 'Saacad';
+  String get timePickerHourLabel => 'Saac';
 
   @override
-  String get timePickerMinuteLabel => 'Daqiiqad';
+  String get timePickerMinuteLabel => 'Daqiiqado';
 
   @override
-  String get viewLicensesButtonLabel => 'Tus liisanka';
+  String get viewLicensesButtonLabel => 'Shatiyada';
 
   @override
   String get keyboardKeyAlt => 'Alt';
